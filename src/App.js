@@ -1,10 +1,16 @@
 import React from 'react';
 
-import TechList from './components/TechList';
+import Header from './components/Header';
+import PostList from './components/PostList';
 import './App.css';
 
-function App(){
-  return <TechList />;
+function App() {
+  return (
+    <>
+      <Header />
+      <PostList />
+    </>
+  );
 }
 
 export default App;

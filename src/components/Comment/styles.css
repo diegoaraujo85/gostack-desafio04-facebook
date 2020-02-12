@@ -1,0 +1,30 @@
+.comment{
+  width: 500px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.comment p{
+  padding: 5px;
+}
+.post img{
+  border-radius: 50%;
+  height: 35px;
+  margin-right: 20px;
+}
+.comment .content{
+  background: #eee;
+  font-size: 12px;
+  line-height: 40px;
+  padding:5px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.comment strong{}
+
+
+.comment span{
+  padding:10px;
+}
