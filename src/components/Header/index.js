@@ -11,9 +11,8 @@ function Header() {
       />
       <div className="user-info">
         <strong>Diego Araujo</strong>
-        <span>
-          <AccountCircleIcon />
-        </span>
+
+        <AccountCircleIcon />
       </div>
     </div>
   );
